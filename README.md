@@ -15,7 +15,7 @@ here is the second task for AI and Robotic in this task sprate in two part the f
  ![turtle_world](https://user-images.githubusercontent.com/40144145/125178184-f097a900-e1ea-11eb-98e1-d3d28211c40f.PNG)
 ### Empty World
 ![empty_world](https://user-images.githubusercontent.com/40144145/125178162-d2ca4400-e1ea-11eb-9525-55492096fb59.PNG)
-# PART TWO (Slam and maping )
+# PART TWO (Slam)
 ## first make sure to write all these steps into your 
 open new terminal and let the directory on `catkin_ws/src`
 Then git this repository 

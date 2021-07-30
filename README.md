@@ -16,3 +16,18 @@ here is the second task for AI and Robotic in this task sprate in two part the f
 ### Empty World
 ![empty_world](https://user-images.githubusercontent.com/40144145/125178162-d2ca4400-e1ea-11eb-9525-55492096fb59.PNG)
 # PART TWO (Slam and maping )
+## first make sure to write all these steps into your 
+open new terminal and let the directory on `catkin_ws/src`
+Then git this repository 
+` git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git`
+Creat an Catkin_make file
+`cd ~/catkin_ws && catkin_make`
+### lets launch the world 🚀
+`export TURTLEBOT3_MODEL=burger`
+`roslaunch turtlebot3_gazebo turtlebot3_world.launch`
+### Run SLAM Node
+`roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping`
+### Run Teleoperation Node
+Open a new terminal to Control Your TurtleBot3!
+`roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch`
+![camphoto_1804928587](https://user-images.githubusercontent.com/40144145/127586709-6fd2711f-344d-4b9c-9113-cdf5f28f8010.jpg)
